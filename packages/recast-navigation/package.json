@@ -72,7 +72,7 @@
     "@recast-navigation/three": "0.34.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.5",
+    "@babel/core": "^7.29.6",
     "@babel/preset-env": "^7.24.5",
     "@babel/preset-typescript": "^7.24.1",
     "@isaac-mason/eslint-config-typescript": "^0.0.9",
@@ -100,16 +100,16 @@
     "leva": "^0.9.35",
     "react": "^18.3.1",
     "react-dom": "^18.2.0",
-    "rollup": "^4.14.0",
+    "rollup": "^4.59.0",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-filesize": "^10.0.0",
-    "storybook": "^8.0.9",
+    "storybook": "^8.6.17",
     "suspend-react": "^0.1.3",
     "three": "^0.167.1",
     "three-pathfinding": "^1.2.0",
     "typescript": "^5.4.3",
-    "vite": "^5.2.10",
-    "vitest": "^1.5.2",
+    "vite": "^6.4.3",
+    "vitest": "^3.2.6",
     "zustand": "^4.5.2"
   },
   "packageManager": "yarn@3.2.2"
