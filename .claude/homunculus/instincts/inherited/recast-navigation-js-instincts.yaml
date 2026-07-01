@@ -1,0 +1,300 @@
+# Instincts generated from https://github.com/Bestbuybaby/recast-navigation-js
+# Generated: 2026-07-01T17:44:08.647Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: recast-navigation-js-commit-conventional
+trigger: "when writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: https://github.com/Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Commit Conventional
+
+## Action
+
+Use conventional commit format with prefixes: chore
+
+## Evidence
+
+- 1 commits analyzed
+- Detected conventional commit pattern
+- Examples: chore(deps): bump the npm_and_yarn group across 1 directory with 19 updates
+
+---
+id: recast-navigation-js-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Commit Length
+
+## Action
+
+Write moderate-length commit messages (~75 characters)
+
+## Evidence
+
+- Average commit message length: 75 chars
+- Based on 1 commits
+
+---
+id: recast-navigation-js-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: recast-navigation-js-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: recast-navigation-js-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: recast-navigation-js-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: recast-navigation-js-instinct-file-naming
+trigger: "When creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Instinct File Naming
+
+## Action
+
+Name the file using camelCase
+
+## Evidence
+
+- Pattern in namingConventions.files: camelCase
+
+---
+id: recast-navigation-js-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Instinct Function Naming
+
+## Action
+
+Name the function using camelCase
+
+## Evidence
+
+- Pattern in namingConventions.functions: camelCase
+
+---
+id: recast-navigation-js-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Instinct Class Naming
+
+## Action
+
+Name the class using PascalCase
+
+## Evidence
+
+- Pattern in namingConventions.classes: PascalCase
+
+---
+id: recast-navigation-js-instinct-constant-naming
+trigger: "When defining a constant"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Instinct Constant Naming
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE
+
+## Evidence
+
+- Pattern in namingConventions.constants: SCREAMING_SNAKE_CASE
+
+---
+id: recast-navigation-js-instinct-import-style
+trigger: "When importing modules"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Instinct Import Style
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- Pattern in importStyle: relative
+
+---
+id: recast-navigation-js-instinct-export-style
+trigger: "When exporting code"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in exportStyle: named
+
+---
+id: recast-navigation-js-instinct-test-location
+trigger: "When adding or updating tests"
+confidence: 0.7
+domain: testing
+source: repo-analysis
+source_repo: Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Instinct Test Location
+
+## Action
+
+Place test files in a separate directory from source files
+
+## Evidence
+
+- Pattern in architecture.folderStructure.testLocation: separate
+
+---
+id: recast-navigation-js-instinct-git-commit-format
+trigger: "When writing a commit message"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Instinct Git Commit Format
+
+## Action
+
+Use conventional commit format with a prefix, such as 'chore'
+
+## Evidence
+
+- Pattern in commits.type: conventional
+- Pattern in commits.prefixes: ["chore"]
+- Seen in commit: chore(deps): bump the npm_and_yarn group across 1 directory with 19 updates
+
+---
+id: recast-navigation-js-instinct-monorepo-structure
+trigger: "When adding a new package or example"
+confidence: 0.8
+domain: architecture
+source: repo-analysis
+source_repo: Bestbuybaby/recast-navigation-js
+---
+
+# Recast Navigation Js Instinct Monorepo Structure
+
+## Action
+
+Place it under the appropriate top-level folder: 'packages', 'examples', or 'apps'
+
+## Evidence
+
+- Pattern in architecture.folderStructure.commonFolders: ["packages", "examples", "apps"]
+
